@@ -450,7 +450,7 @@ function backBtn() {
 function shareText(score) {
 
     deviation_time = (date2.getTime() - _date1.getTime())
-    if (score <= 2.5 * __Time) return '阿巴阿巴.jpg';
+    if (score <= 2.5 * __Time) return '发生什么事了？';
     if (score <= 5 * __Time) return '嘎~！';
     if (score <= 7.5 * __Time) return '牛蛙牛蛙';
     if (score <= 10 * __Time) return 'TQL';
