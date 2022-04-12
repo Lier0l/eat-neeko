@@ -450,11 +450,11 @@ function backBtn() {
 function shareText(score) {
 
     deviation_time = (date2.getTime() - _date1.getTime())
-    if (score <= 2.5 * __Time) return '加油！我相信您可以的！';
-    if (score <= 5 * __Time) return '^_^ 加把劲，底力大王就是您！';
-    if (score <= 7.5 * __Time) return '您！';
-    if (score <= 10 * __Time) return '太 您 了！';
-    return '您是外星人嘛？';
+    if (score <= 2.5 * __Time) return '阿巴阿巴.jpg';
+    if (score <= 5 * __Time) return '嘎~！';
+    if (score <= 7.5 * __Time) return '牛蛙牛蛙';
+    if (score <= 10 * __Time) return 'TQL';
+    return '关了吧，没意思';
 }
 
 function toStr(obj) {
